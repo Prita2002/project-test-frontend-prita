@@ -1,0 +1,40 @@
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post-card {
+  width: 200px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.post-card img {
+  width: 100%;
+  height: auto;
+}
+
+.post-card h3 {
+  margin-top: 10px;
+  height: 3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.custom-select-style {
+  width: 120px;
+  border-radius: 30px;
+}
+.btn-tomato {
+  background-color: tomato;
+  color: white;
+}
+
+.active-page {
+  background-color: tomato;
+  color: white;
+}
